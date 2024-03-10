@@ -1,86 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: lightseagreen;
+
+body {
+    background-image: url(WhatsApp\ Image\ 2024-02-29\ at\ 3.10.26\ PM.jpeg);
     text-align: center;
 }
-.container{
+
+.container {
     height: 70vh;
-    /* background-color: antiquewhite; */
     display: flex;
-/* flex-wrap: wrap; */
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
-h1{
-    font-size: 45px;
-    color: red;
+
+h1 {
+    font-size: 55px;
+    background-color: aqua;
+    display: inline;
+    padding: 0 15px;
+    border-radius: 15px;
+    color: blue;
 }
 
-.game{
+.game {
     height: 60vmin;
     width: 60vmin;
     /* background-color: red; */
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-gap: 1.5vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
 }
-.box{
+
+.box {
     height: 18vmin;
     width: 18vmin;
     border-radius: 20px;
     border: none;
-    box-shadow: 0 0 1rem blue;
-    background-color: grey;
+    box-shadow: 0 0 10px 5px yellow;
+    background-color: #12B17A;
     font-size: 8vmin;
-    color: lightpink;
+    color: darkred;
 }
 
-#reset-game{
+.box text {
+    font-weight: 900;
+}
+
+#reset-game {
     padding: 1rem;
     border-radius: 9px;
     font-size: 16px;
     border: none;
-    background-color: darkolivegreen;
+    background-color: orangered;
     color: white;
 }
-#new-game{
+
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: inline; */
+}
+
+#new-game {
     padding: 0.5rem;
     border-radius: 9px;
     font-size: 16px;
     border: none;
-    background-color: darkolivegreen;
+    background-color: rgb(77, 92, 52);
     color: white;
+    width: 150px;
 }
-#msg{
+
+#msg {
     font-size: 40px;
     color: yellow;
+    background-color: rgb(244, 70, 1);
+    display: inline;
+    padding: 0 18px;
+    border-radius: 17px;
 
 }
 
-.hide{
+.hide {
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
